@@ -13,6 +13,7 @@ This repository provides the history of the open source TASS projects, and provi
 This was the first version of TASS to be open sourced and became quite popular on Hackster.io. The tutorial helps you to build a Raspberry Pi that allows you to train a Haarcascades model, detect recognized/unknown people, optionally monitor the camera in near real-time via a stream, and communicate with the IoT JumpWay sending sensor and warning messages that will allow your device to autonomously communicate with other IoT devices on your IoT JumpWay network.
 
 
+
 ## OpenFace TASS Computer Vision Example
 
 [![OpenFace TASS Computer Vision Example](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/raw/master/images/NUC-DE3815TYKE/Computer-Vision/OpenFace/Intel-NUC-DE3815TYKE-CV.png)](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/tree/master/Intel-Nuc/DE3815TYKE/Computer-Vision/Python/OpenFace)
@@ -20,3 +21,12 @@ This was the first version of TASS to be open sourced and became quite popular o
 This was the second version of TASS to be open sourced. The tutorial uses the IoT JumpWay Python MQTT Library for communication, an Intel® NUC DE3815TYKE or any Linux Desktop running Ubuntu, 1 or more IP Cameras, an optional Realsense camera, and our own deep learning neural network based on the popular OpenFace facial recognition toolkit.
 
 
+
+## Intel® Computer Vision SDK Windows Examples
+
+[![Intel® Computer Vision SDK Windows Examples](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/raw/master/Intel-Computer-Vision-SDK/TASS-PVL/Windows/images/Intel-Computer-Vision-Windows.png)](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/tree/master/Intel-Computer-Vision-SDK/TASS-PVL/Windows)
+
+This was the third version of TASS to be open sourced. The tutorial helps you build a Computer Vision security system on Windows using Intel® Computer Vision SDK, an Intel® Realsense camera/web/ip cam and an Intel® Edison connected to the Internet of Things via TechBubble Technologies IoT JumpWay.
+
+
+ 
