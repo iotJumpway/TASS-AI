@@ -22,6 +22,14 @@ This was the second version of TASS to be open sourced. The tutorial uses the Io
 
 
 
+## InceptionFlow IoT Computer Vision Using Inception V3
+
+[![InceptionFlow IoT Computer Vision Using Inception V3](https://github.com/TechBubbleTechnologies/InceptionFlow/raw/master/images/main/InceptionFlow.png)](https://github.com/TechBubbleTechnologies/InceptionFlow)
+
+This is a Python wrapper based around the third version of TASS and Tensorflow. InceptionFlow is an object & facial recognition Python wrapper for the Tensorflow Imagenet example and integrates IoT connectivity using the TechBubble IoT JumpWay Python MQTT client.
+
+
+
 ## Intel® Computer Vision SDK Windows Examples
 
 [![Intel® Computer Vision SDK Windows Examples](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/raw/master/Intel-Computer-Vision-SDK/TASS-PVL/Windows/images/Intel-Computer-Vision-Windows.png)](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/tree/master/Intel-Computer-Vision-SDK/TASS-PVL/Windows)
