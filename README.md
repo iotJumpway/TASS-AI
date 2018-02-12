@@ -6,6 +6,9 @@ tassAI is computer vision software that is able to communicate autonomously with
 
 This repository provides the history of the open source TASS projects, and provides links directly to the relevant projects in our Github repos.
 
+EACH TUTORIAL PROVIDES FULL INSTRUCTIONS AND SAMPLE CODE
+**CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
+
 ## Facial Recognition & Identification on Raspberry Pi
 
 [![Facial Recognition & Identification on Raspberry Pi](https://github.com/TechBubbleTechnologies/IoT-JumpWay-RPI-Examples/raw/master/images/Computer-Vision/Raspberry-Pi-Computer-Vision-Example.png)](https://github.com/TechBubbleTechnologies/IoT-JumpWay-RPI-Examples/tree/master/Computer-Vision/Python)
@@ -35,6 +38,14 @@ This is a Python wrapper based around the third version of TASS and Tensorflow. 
 [![Intel® Computer Vision SDK Windows Examples](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/raw/master/Intel-Computer-Vision-SDK/TASS-PVL/Windows/images/Intel-Computer-Vision-Windows.png)](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/tree/master/Intel-Computer-Vision-SDK/TASS-PVL/Windows)
 
 This was the third version of TASS to be open sourced. The tutorial helps you build a Computer Vision security system on Windows using Intel® Computer Vision SDK, an Intel® Realsense camera/web/ip cam and an Intel® Edison connected to the Internet of Things via TechBubble Technologies IoT JumpWay.
+
+
+
+## Intel® AI DevCloud / Colfax TASS Trainer
+
+[![Intel® AI DevCloud / Colfax TASS Trainer](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/raw/master/Intel-Colfax/images/tass-trainer.jpg)](https://github.com/TechBubbleTechnologies/IoT-JumpWay-Intel-Examples/tree/master/Intel-Colfax/Tass-Trainer)
+
+This was the fourth version of TASS to be open sourced. The Colfax TASS Trainer replicates the transfer learning side of the original program and is trained on the Intel  AI DevCloud HPC Cluster (Colfax Cluster).
 
 
  
