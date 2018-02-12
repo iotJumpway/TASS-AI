@@ -4,9 +4,7 @@
 
 tassAI is computer vision software that is able to communicate autonomously with applications and devices via the Internet of Things. Our commercial version of tassAI powers a number of our Internet Of Things projects such as retailAI, but an open source version is also available for developers to use with the IoT JumpWay Developer Program.
 
-This repository provides the history of the open source TASS projects, and provides links directly to the relevant projects in our Github repos.
-
-EACH TUTORIAL PROVIDES FULL INSTRUCTIONS AND SAMPLE CODE
+This repository provides the history of the open source TASS projects, and provides links directly to the relevant projects in our Github repos. Each tutorial provides full instructions and source codes.
 
 **CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
 
