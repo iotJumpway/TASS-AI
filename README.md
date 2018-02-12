@@ -7,6 +7,7 @@ tassAI is computer vision software that is able to communicate autonomously with
 This repository provides the history of the open source TASS projects, and provides links directly to the relevant projects in our Github repos.
 
 EACH TUTORIAL PROVIDES FULL INSTRUCTIONS AND SAMPLE CODE
+
 **CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
 
 ## Facial Recognition & Identification on Raspberry Pi
