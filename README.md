@@ -9,6 +9,14 @@ This repository provides the history of the open source TASS projects, and provi
 # TASS AI Projects
 **CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
 
+
+## TASS Movidius Example: IoT Connected Computer Vision
+
+[![TASS Movidius Example: IoT Connected Computer Vision](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS)
+
+TASS Movidius uses pretrained Inception V3 & Yolo models and an Intel® Movidius to carry out object and facial classification, both locally and on a live webcam stream. TASS Movidius uses the IoT JumpWay for IoT communication and publishes messages to the broker when an object is identified.
+
+
 ## Intel® AI DevCloud / Colfax TASS Trainer
 
 [![Intel® AI DevCloud / Colfax TASS Trainer](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/raw/master/Intel-Colfax/images/tass-trainer.jpg)](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/tree/master/Intel-Colfax/Tass-Trainer)
