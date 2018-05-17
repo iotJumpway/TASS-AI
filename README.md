@@ -1,6 +1,6 @@
 # Open Source TASS AI Projects
 
-![Open Source TASS AI Projects](images/facenet.png)
+![Open Source TASS AI Projects](images/tass-ai.png)
 
 tassAI is computer vision software that is able to communicate autonomously with applications and devices via the Internet of Things. There are several versions of TASS and several different projects that evolved from the concept. Each version of TASS uses different techniques and technologies to accomplish facial recognition and other computer vision uses.
 
@@ -8,6 +8,13 @@ This repository provides the history of the open source TASS projects, and provi
 
 # TASS AI Projects
 **CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
+
+
+## TASS Movidius Facenet Classifier
+
+[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/TASS-AI/raw/master/images/facenet.png)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet)
+
+The TASS Movidius Facenet Classifier uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces. The project uses an UP2 the Intel Movidius and the IoT JumpWay for IoT connectivity.
 
 
 ## TASS Movidius Example: IoT Connected Computer Vision
