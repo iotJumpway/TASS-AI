@@ -1,6 +1,6 @@
 # Open Source TASS AI Projects
 
-![Open Source TASS AI Projects](images/tass-ai.png)
+![Open Source TASS AI Projects](images/facenet.png)
 
 tassAI is computer vision software that is able to communicate autonomously with applications and devices via the Internet of Things. There are several versions of TASS and several different projects that evolved from the concept. Each version of TASS uses different techniques and technologies to accomplish facial recognition and other computer vision uses.
 
