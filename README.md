@@ -35,7 +35,7 @@ The **TASS Movidius Yolo Classifier** uses a pretrained **Yolo model** and an **
 
 ## Intel® AI DevCloud TASS Trainer
 
-[![Intel® AI DevCloud TASS Trainer](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/raw/master/Intel-Colfax/images/tass-trainer.jpg)](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/tree/master/Intel-Colfax/Tass-Trainer)
+[![Intel® AI DevCloud TASS Trainer](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-AI-DevCloud/images/tass-trainer.jpg)](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/tree/master/Intel-AI-DevCloud/Tass-Trainer)
 
 This was the fourth version of TASS to be open sourced. The AI DevCloud TASS Trainer replicates the transfer learning side of the original program and is trained on the Intel  AI DevCloud HPC Cluster (Colfax Cluster). You can use this trainer for many of the computer vision examples you will find in this and related repos.
 
