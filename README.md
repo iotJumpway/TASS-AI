@@ -9,27 +9,35 @@ This repository provides the history of the open source TASS projects, and provi
 # TASS AI Projects
 **CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
 
+## TASS Movidius Classifiers
+
+[![TASS Movidius Classifiers](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/)
+
+The **TASS Movidius Classifiers** are computer vision programs using a number of different models including **Inception V3**, **Yolo**, **dlib**, **OpenCV** and **Facenet**.
 
 ## TASS Movidius Facenet Classifier
 
-[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/TASS-AI/raw/master/images/facenet.png)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet)
+[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/Facenet/images/facenet.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet)
 
-The TASS Movidius Facenet Classifier uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces. The project uses an UP2 the Intel Movidius and the IoT JumpWay for IoT connectivity.
+The **TASS Movidius Facenet Classifier** uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces. The project uses an UP2 the Intel Movidius and the [IoT JumpWay](https://iot.techbubbletechnologies.com "IoT JumpWay") for IoT connectivity.
 
+## TASS Movidius Inception V3 Classifier
 
-## TASS Movidius Example: IoT Connected Computer Vision
+[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/InceptionV3/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/InceptionV3)
 
-[![TASS Movidius Example: IoT Connected Computer Vision](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS)
+The **TASS Movidius Inception V3 Classifier** uses a pretrained or custom trained **Inception V3** model and an **Intel® Movidius** to carry out object and **facial classification**, both locally and on a live webcam stream. TASS Movidius uses the [IoT JumpWay](https://iot.techbubbletechnologies.com "IoT JumpWay") for IoT communication and publishes messages to the broker when an object/face is identified.
 
-TASS Movidius uses pretrained Inception V3 & Yolo models and an Intel® Movidius to carry out object and facial classification, both locally and on a live webcam stream. TASS Movidius uses the IoT JumpWay for IoT communication and publishes messages to the broker when an object is identified.
+## TASS Movidius Yolo Classifier
 
+[![TASS Movidius Yolo Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/Yolo/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Yolo)
 
-## Intel® AI DevCloud / Colfax TASS Trainer
+The **TASS Movidius Yolo Classifier** uses a pretrained **Yolo model** and an **Intel® Movidius** to carry out object, both locally and on a live webcam stream. TASS Movidius uses the [IoT JumpWay](https://iot.techbubbletechnologies.com "IoT JumpWay") for IoT communication and publishes messages to the broker when an object is identified.
 
-[![Intel® AI DevCloud / Colfax TASS Trainer](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/raw/master/Intel-Colfax/images/tass-trainer.jpg)](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/tree/master/Intel-Colfax/Tass-Trainer)
+## Intel® AI DevCloud TASS Trainer
 
-This was the fourth version of TASS to be open sourced. The Colfax TASS Trainer replicates the transfer learning side of the original program and is trained on the Intel  AI DevCloud HPC Cluster (Colfax Cluster).
+[![Intel® AI DevCloud TASS Trainer](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/raw/master/Intel-Colfax/images/tass-trainer.jpg)](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/tree/master/Intel-Colfax/Tass-Trainer)
 
+This was the fourth version of TASS to be open sourced. The AI DevCloud TASS Trainer replicates the transfer learning side of the original program and is trained on the Intel  AI DevCloud HPC Cluster (Colfax Cluster). You can use this trainer for many of the computer vision examples you will find in this and related repos.
 
 ## Intel® Computer Vision SDK Windows Examples
 
