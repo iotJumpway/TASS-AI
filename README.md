@@ -98,4 +98,12 @@ American Sign Language (ASL) Classification Using Computer Vision & IoT combines
 
 The project uses the power of the Intel® Movidius and uses a custom trained Inception V3 model to carry out image classification locally. IoT communication is powered by the IoT JumpWay to communicate with connected devices and applications.
 
+## Bugs/Issues
+
+Please feel free to create issues for bugs and general issues you come across whilst using this, or any other related IoT JumpWay issues. You may also use the issues area to ask for general help whilst using the IoT JumpWay in your IoT projects.
+
+## Contributors
+
+[![Adam Milton-Barker, Intel® Software Innovator](images/Intel-Software-Innovator.jpg)](https://github.com/AdamMiltonBarker)
+
  
