@@ -46,13 +46,6 @@ This was the fourth version of TASS to be open sourced. The AI DevCloud TASS Tra
 This was the third version of TASS to be open sourced. The tutorial helps you build a Computer Vision security system on Windows using Intel® Computer Vision SDK, an Intel® Realsense camera/web/ip cam and an Intel® Edison connected to the Internet of Things via TechBubble Technologies IoT JumpWay.
 
 
-## InceptionFlow IoT Computer Vision Using Inception V3
-
-[![InceptionFlow IoT Computer Vision Using Inception V3](https://github.com/iotJumpWay/InceptionFlow/raw/master/images/main/InceptionFlow.png)](https://github.com/iotJumpWay/InceptionFlow)
-
-This is a Python wrapper based around the third version of TASS and Tensorflow. InceptionFlow is an object & facial recognition Python wrapper for the Tensorflow Imagenet example and integrates IoT connectivity using the TechBubble IoT JumpWay Python MQTT client.
-
-
 ## OpenFace TASS Computer Vision Example
 
 [![OpenFace TASS Computer Vision Example](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/raw/master/images/NUC-DE3815TYKE/Computer-Vision/OpenFace/Intel-NUC-DE3815TYKE-CV.png)](https://github.com/iotJumpWay/IoT-JumpWay-Intel-Examples/tree/master/Intel-Nuc/DE3815TYKE/Computer-Vision/Python/OpenFace)
@@ -71,13 +64,11 @@ This was the first version of TASS to be open sourced and became quite popular o
 **CLICK ON THE IMAGES TO BE TAKEN TO THE RELEVANT TUTORIAL**
 
 
-## American Sign Language (ASL) Classification Using Computer Vision & IoT
+## InceptionFlow IoT Computer Vision Using Inception V3
 
-[![Invasive Ductal Carcinoma (IDC) Classification Using Computer Vision & IoT](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/ASL-Classification/images/Sign-Language-Classification.png)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/ASL-Classification)
+[![InceptionFlow IoT Computer Vision Using Inception V3](https://github.com/iotJumpWay/InceptionFlow/raw/master/images/main/InceptionFlow.png)](https://github.com/iotJumpWay/InceptionFlow)
 
-American Sign Language (ASL) Classification Using Computer Vision & IoT combines Computer Vision and the Internet of Things to provide a way to train a neural network with labelled American Sign Language images to translate hand gestures in near real-time.
-
-The project uses the power of the Intel® Movidius and uses a custom trained Inception V3 model to carry out image classification locally. IoT communication is powered by the IoT JumpWay to communicate with connected devices and applications.
+This is a Python wrapper based around the third version of TASS and Tensorflow. InceptionFlow is an object & facial recognition Python wrapper for the Tensorflow Imagenet example and integrates IoT connectivity using the TechBubble IoT JumpWay Python MQTT client.
 
 
 ## Invasive Ductal Carcinoma (IDC) Classification Using Computer Vision & IoT
@@ -97,5 +88,14 @@ BoobAIs combines Computer Vision and the Internet of Things to provide researche
 
 The project uses the power of the Intel® Movidius and uses a custom trained Inception V3 model to carry out image classification, both locally and via a server / client. IoT communication is powered by the IoT JumpWay and publishes the results after processing local images or images sent through the API.
 
+
+
+## American Sign Language (ASL) Classification Using Computer Vision & IoT
+
+[![Invasive Ductal Carcinoma (IDC) Classification Using Computer Vision & IoT](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/ASL-Classification/images/Sign-Language-Classification.png)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/ASL-Classification)
+
+American Sign Language (ASL) Classification Using Computer Vision & IoT combines Computer Vision and the Internet of Things to provide a way to train a neural network with labelled American Sign Language images to translate hand gestures in near real-time.
+
+The project uses the power of the Intel® Movidius and uses a custom trained Inception V3 model to carry out image classification locally. IoT communication is powered by the IoT JumpWay to communicate with connected devices and applications.
 
  
