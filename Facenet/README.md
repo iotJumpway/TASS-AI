@@ -23,6 +23,31 @@ Combining **TASS Movidius Inception V3 Classifier** (prone to open set recogniti
 7. Install the [Intel® NCSDK API](https://github.com/movidius/ncsdk "Intel® NCSDK API") on a Raspberry Pi 3 / UP 2.
 8. Upload and run the program on an **UP2** or **Raspberry Pi 3**
 
+## Python Versions
+
+- Tested in Python 3.5
+
+## Software Requirements
+
+- [Intel® NCSDK](https://github.com/movidius/ncsdk "Intel® NCSDK")
+- [Tensorflow 1.4.0](https://www.tensorflow.org/install "Tensorflow 1.4.0")
+- [iotJumpWay MQTT Client](https://github.com/iotJumpway/JumpWayMQTT "iotJumpWay MQTT Client")
+- [GrovePi](https://github.com/DexterInd/GrovePi "GrovePi") (OPTIONAL)
+
+## Hardware Requirements
+
+- 1 x [Intel® Movidius](https://www.movidius.com/ "Intel® Movidius")
+- 1 x Linux Desktop for Movidius development (Full SDK)
+- 1 x Raspberry Pi 3 / UP Squared for the classifier / webcam
+
+## Optional Hardware Requirements
+
+- 1 x Raspberry Pi 3 for IoT connected alarm
+- 1 x Grove starter kit for IoT, Raspberry Pi edition
+- 1 x Blue LED (Grove)
+- 1 x Red LED (Grove)
+- 1 x Buzzer (Grove)
+
 **Acknowledgement:** Uses code from Intel® **movidius/ncsdk** ([movidius/ncsdk Github](https://github.com/movidius/ncsdk "movidius/ncsdk Github"))<br />
 **Acknowledgement:** Uses code from Intel® **davidsandberg/facenet** ([davidsandberg/facenet Github](https://github.com/davidsandberg/facenet "davidsandberg/facenet"))
 
