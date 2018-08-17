@@ -101,6 +101,51 @@ If you have problems running the above program and have errors try run the follo
  $ sh setup.sh
 ```
 
+## iotJumpWay Device Connection Credentials & Settings
+
+Setup an iotJumpWay Location Device for IDC Classifier, ensuring you set up a camera node, as you will need the ID of the dummy camera for the project to work. Once your create your device add the location ID and Zone ID to the **IoTJumpWay** details in the confs file located at **required/confs.json**, also add the device ID and device name exactly, add the MQTT credentials to the **IoTJumpWayMQTT** .
+
+You will need to edit your device and add the rules that will allow it to communicate autonomously with the other devices and applications on the network, but for now, these are the only steps that need doing at this point.
+
+Follow the [iotJumpWay Dev Program Location Device Doc](https://www.iotjumpway.tech/developers/getting-started-devices "iotJumpWay Dev Program Location Device Doc") to set up your devices.
+
+```
+{
+    "IoTJumpWay": {
+        "Location": 0,
+        "Zone": 0,
+        "Device": 0,
+        "DeviceName" : "",
+        "App": 0,
+        "AppName": ""
+    },
+    "Actuators": {},
+    "Cameras": [
+        {
+            "ID": 0,
+            "URL": 0,
+            "Name": "",
+            "Stream": "",
+            "StreamPort": 8080
+        }
+    ],
+    "Sensors": {},
+	"IoTJumpWayMQTT": {
+        "MQTTUsername": "",
+        "MQTTPassword": ""
+    },
+    "ClassifierSettings":{
+        "NetworkPath":"",
+        "Graph":"model/tass.graph",
+        "Dlib":"model/dlib/shape_predictor_68_face_landmarks.dat",
+        "dataset_dir":"model/train/",
+        "TestingPath":"data/testing/",
+        "ValidPath":"data/known/",
+        "Threshold": 1.20
+    }
+}
+```
+
 ## Preparing Your Dataset
 
 You need to set up two very small datasets. As we are using a pretrained Facenet model there is no training to do in this tutorial and we only need one image per known person. You should see the **known** and **testing** folders in the **data** directory, this is where you will store 1 image of each person you want to be identified by the network, and also a testing dataset that can include either known or unknown faces for testing. When you store the known data, you should name each image with the name you want them to be identified as in the system, in my testing I used images of me and two other random people, the 1 image used to represent myself in the known folder was named Adam  
@@ -109,9 +154,11 @@ You need to set up two very small datasets. As we are using a pretrained Facenet
 
 Now it is time to test out your classifier, on your development machine in the [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory:
 
+
 ```
  $ python3.5 Classifier.py
 ```
+
 This will run the classifier test program, the program will first loop through your testing images, and once it sees a face it will loop through all of the known faces and match them against the faces, once it finds a match, or not, it will move on to the next image in your testing loop until all images have been classifier as known or unknown. 
 
 ```
@@ -140,7 +187,7 @@ Now comes the good part, realtime facial recognition and identification.
 }
 ```
 
-The program uses a **dlib** model to recognize faces in the frames / mark the facial points on the frame, and **Facenet** to determine whether they are a known person or not. Below are the outputs around the time that the above photo was taken. You will see that the program publishes to the **Warnings** channel of the IoT JumpWay, this is currently the name for the channel that handles device to device communication via rules.
+The program uses a **dlib** model to recognize faces in the frames / mark the facial points on the frame, and **Facenet** to determine whether they are a known person or not. Below are the outputs around the time that the above photo was taken. You will see that the program publishes to the **Warnings** channel of the iotJumpWay, this is currently the name for the channel that handles device to device communication via rules.
 
 ```
 -- Saved frame
