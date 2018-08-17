@@ -148,6 +148,7 @@ The program uses a **dlib** model to recognize faces in the frames / mark the fa
 -- MATCH
 -- Published: 30
 -- Published to Device Warnings Channel
+```
 
 **Acknowledgement:** Uses code from Intel® **movidius/ncsdk** ([movidius/ncsdk Github](https://github.com/movidius/ncsdk "movidius/ncsdk Github"))<br />
 **Acknowledgement:** Uses code from Intel® **davidsandberg/facenet** ([davidsandberg/facenet Github](https://github.com/davidsandberg/facenet "davidsandberg/facenet"))
