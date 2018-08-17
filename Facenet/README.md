@@ -4,7 +4,7 @@
 
 The **TASS Movidius Facenet Classifier** uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces, basically this means it calculates the distance between an image it is presented and a folder of known faces. 
 
-![Intel® UP2 & Movidius](images/UP2.jpg)
+![Intel® UP2 & Movidius](../images/UPSquared.jpg)
 
 The project uses an **UP2 (Up Squared)** the **Intel Movidius** for inference and the [iotJumpWay](https://www.iotjumpway.tech "iotJumpWay") for IoT connectivity. 
 
