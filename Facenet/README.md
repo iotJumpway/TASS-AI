@@ -71,15 +71,15 @@ Next plug your Movidius into your device and issue the following commands:
 
 You will need to clone this repository to a location on your development terminal. Navigate to the directory you would like to download it to and issue the following commands.
 
-    $ git clone https://github.com/AdamMiltonBarker/TASS-AI.git
+    $ git clone https://github.com/iotJumpWay/TASS-AI.git
 
-Once you have the repo, you will need to find the files in this folder located in [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet").
+Once you have the repo, you will need to find the files in this folder located in [TASS-AI/Facenet](https://github.com/iotJumpWay/TASS-AI/tree/master/Facenet "TASS-AI/Facenet").
 
 ## Setup
 
 Now you need to setup the software required for the classifier to run. The setup.sh script is a shell script that you can run on both your development device and Raspberry Pi 3 / UP Squared device. 
 
-Make sure you have installed the **NCSDK** on your developement machine, the following command assumes you are located in the [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory.
+Make sure you have installed the **NCSDK** on your developement machine, the following command assumes you are located in the [TASS-AI/Facenet](https://github.com/iotJumpWay/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory.
 
 The setup.sh file is an executable shell script that will do the following:
 
@@ -152,7 +152,7 @@ You need to set up two very small datasets. As we are using a pretrained Facenet
 
 ## Test the TASS Movidius Facenet Classifier
 
-Now it is time to test out your classifier, on your development machine in the [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory:
+Now it is time to test out your classifier, on your development machine in the [TASS-AI/Facenet](https://github.com/iotJumpWay/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory:
 
 
 ```
