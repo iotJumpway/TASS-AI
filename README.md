@@ -6,13 +6,13 @@ tassAI is computer vision software that is able to communicate autonomously with
 
 This repository provides the history of the open source TASS projects. Each tutorial provides full instructions and source codes.<br /><br />
 
-[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/Facenet/images/facenet.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet)
-
 ## Latest Version
+
+[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/Facenet/images/facenet.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet)
 
 The latest version of TASS is **TASS Movidius Facenet Classifier** which uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces. The project uses an UP2, the Intel Movidius and the [iotJumpWay](https://www.iotJumpWay.tech "iotJumpWay") for IoT connectivity.
 
-**PROJECT LINK:** [TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet "TASS Movidius Facenet Classifier")<br />
+**PROJECT LINK:** [TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet "TASS Movidius Facenet Classifier")<br /><br />
 
 ## TASS Movidius Inception V3 Classifier
 
