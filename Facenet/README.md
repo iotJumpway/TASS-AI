@@ -6,8 +6,6 @@ The **TASS Movidius Facenet Classifier** uses Siamese Neural Networks and Triple
 
 The project uses an **UP2 (Up Squared)** (A regular Linux desktop or Raspberry 3 and above will also work) the **Intel Movidius** for inference and the [iotJumpWay](https://www.iotjumpway.tech "iotJumpWay") for IoT connectivity. 
 
-![Intel® UP2 & Movidius](../images/UPSquared.jpg)
-
 With previous versions of TASS built using Tensorflow, **TASS Movidius Inception V3 Classifier**, the model had issues with the [Openset Recognition Issue](https://www.wjscheirer.com/projects/openset-recognition/ "Openset Recognition Issue"). **TASS Movidius Facenet Classifier** uses a directory of known images and when presented with a new image, will loop through each image basically measuring the distance between the known image and the presented image, it seems to overcome the issue so far in small testing environments of one or more people. In a large scenario this method will not be scalable, but is fine for small home projects etc. 
 
 Combining **TASS Movidius Inception V3 Classifier** (prone to open set recognition issues) and **TASS Movidius Facenet Classifier** will allow us to catch false positives and verify positive classifications using the name/ID of that prediction to quickly index into the images and make a single calculation to determine if Inception classified the person correctly or not using Facenet and making the project more scalable. The latest Inception version of the classifier will be uploaded to this repository soon.
@@ -41,6 +39,8 @@ Combining **TASS Movidius Inception V3 Classifier** (prone to open set recogniti
 - 1 x Raspberry Pi 3 / UP Squared for the classifier / webcam
 
 ## Optional Hardware Requirements
+
+![Intel® UP2 & Movidius](../images/UPSquared.jpg)
 
 - 1 x Raspberry Pi 3 for IoT connected alarm
 - 1 x Grove starter kit for IoT, Raspberry Pi edition
