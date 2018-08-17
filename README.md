@@ -54,7 +54,7 @@ This was the first version of TASS to be open sourced and became quite popular o
 
 This is a Python wrapper based around the third version of TASS and Tensorflow. InceptionFlow is an object & facial recognition Python wrapper for the Tensorflow Imagenet example and integrates IoT connectivity using the TechBubble iotJumpWay Python MQTT client.
 
-**PROJECT LINK:** [InceptionFlow IoT Computer Vision Using Inception V3](https://github.com/iotJumpWay/InceptionFlow "InceptionFlow IoT Computer Vision Using Inception V3")<br />
+**PROJECT LINK:** [InceptionFlow IoT Computer Vision Using Inception V3](https://github.com/iotJumpWay/InceptionFlow "InceptionFlow IoT Computer Vision Using Inception V3")<br /><br />
 
 ## Bugs/Issues
 
