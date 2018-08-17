@@ -48,6 +48,79 @@ Combining **TASS Movidius Inception V3 Classifier** (prone to open set recogniti
 - 1 x Red LED (Grove)
 - 1 x Buzzer (Grove)
 
+## Install NCSDK On Your Development Device
+
+The first thing you will need to do is to install the **NCSDK** on your development device.
+
+```
+ $ mkdir -p ~/workspace
+ $ cd ~/workspace
+ $ git clone https://github.com/movidius/ncsdk.git
+ $ cd ~/workspace/ncsdk
+ $ make install
+```
+
+Next plug your Movidius into your device and issue the following commands:
+
+```
+ $ cd ~/workspace/ncsdk
+ $ make examples
+```
+
+## Cloning The Repo
+
+You will need to clone this repository to a location on your development terminal. Navigate to the directory you would like to download it to and issue the following commands.
+
+    $ git clone https://github.com/AdamMiltonBarker/TASS-AI.git
+
+Once you have the repo, you will need to find the files in this folder located in [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet").
+
+## Setup
+
+Now you need to setup the software required for the classifier to run. The setup.sh script is a shell script that you can run on both your development device and Raspberry Pi 3 / UP Squared device. 
+
+Make sure you have installed the **NCSDK** on your developement machine, the following command assumes you are located in the [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory.
+
+The setup.sh file is an executable shell script that will do the following:
+
+- Install the required packages named in **requirements.txt**
+- Downloads the pretrained Facenet model (**davidsandberg/facenet**)
+- Downloads the pretrained **Inception V3** model
+- Converts the **Facenet** model to a model that is compatible with the **Intel® Movidius**
+
+To execute the script, enter the following command:
+
+```
+ $ sh setup.sh
+```
+
+If you have problems running the above program and have errors try run the following command before executing the shell script. You may be getting errors due to the shell script having been edited on Windows, the following command will clean the setup file.
+
+```
+ $ sed -i 's/\r//' setup.sh
+ $ sh setup.sh
+```
+
+## Preparing Your Dataset
+
+You need to set up two very small datasets. As we are using a pretrained Facenet model there is no training to do in this tutorial and we only need one image per known person. You should see the **known** and **testing** folders in the **data** directory, this is where you will store 1 image of each person you want to be identified by the network, and also a testing dataset that can include either known or unknown faces for testing. When you store the known data, you should name each image with the name you want them to be identified as in the system, in my testing I used images of me and two other random people, the 1 image used to represent myself in the known folder was named Adam  
+
+## Test the TASS Movidius Facenet Classifier
+
+Now it is time to test out your classifier, on your development machine in the [TASS-AI/Facenet](https://github.com/AdamMiltonBarker/TASS-AI/tree/master/Facenet "TASS-AI/Facenet") directory:
+
+```
+ $ python3.5 Classifier.py
+```
+This will run the classifier test program, the program will first loop through your testing images, and once it sees a face it will loop through all of the known faces and match them against the faces, once it finds a match, or not, it will move on to the next image in your testing loop until all images have been classifier as known or unknown. 
+
+```
+-- Total Difference is: 1.7931939363479614
+-- NO MATCH
+-- Total Difference is: 0.8448524475097656
+-- MATCH Adam-2.jpg
+```
+
 **Acknowledgement:** Uses code from Intel® **movidius/ncsdk** ([movidius/ncsdk Github](https://github.com/movidius/ncsdk "movidius/ncsdk Github"))<br />
 **Acknowledgement:** Uses code from Intel® **davidsandberg/facenet** ([davidsandberg/facenet Github](https://github.com/davidsandberg/facenet "davidsandberg/facenet"))
 
