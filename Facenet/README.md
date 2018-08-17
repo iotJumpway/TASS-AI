@@ -34,13 +34,13 @@ Combining **TASS Movidius Inception V3 Classifier** (prone to open set recogniti
 
 ## Hardware Requirements
 
+![Intel® UP2 & Movidius](../images/UPSquared.jpg)
+
 - 1 x [Intel® Movidius](https://www.movidius.com/ "Intel® Movidius")
 - 1 x Linux Desktop for Movidius development (Full SDK)
 - 1 x Raspberry Pi 3 / UP Squared for the classifier / webcam
 
 ## Optional Hardware Requirements
-
-![Intel® UP2 & Movidius](../images/UPSquared.jpg)
 
 - 1 x Raspberry Pi 3 for IoT connected alarm
 - 1 x Grove starter kit for IoT, Raspberry Pi edition
