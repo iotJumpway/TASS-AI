@@ -4,7 +4,7 @@
 
 The **TASS Movidius Facenet Classifier** uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces, basically this means it calculates the distance between an image it is presented and a folder of known faces. 
 
-The project uses an **UP2 (Up Squared)** the **Intel Movidius** for inference and the [iotJumpWay](https://www.iotjumpway.tech "iotJumpWay") for IoT connectivity. 
+The project uses an **UP2 (Up Squared)** (A regular Linux desktop or Raspberry 3 and above will also work) the **Intel Movidius** for inference and the [iotJumpWay](https://www.iotjumpway.tech "iotJumpWay") for IoT connectivity. 
 
 ![Intel® UP2 & Movidius](../images/UPSquared.jpg)
 
@@ -120,6 +120,34 @@ This will run the classifier test program, the program will first loop through y
 -- Total Difference is: 0.8448524475097656
 -- MATCH Adam-2.jpg
 ```
+
+## Run **TASS Movidius Facenet Classifier** on a live webcam
+
+Now comes the good part, realtime facial recognition and identification. 
+
+![TASS Movidius Facenet Classifier](images/capture.jpg)
+
+**WebCam.py** should connect to the local webcam on your device, process the frames and send them to a local server that is started by this same program. Be sure to edit the **ID** and **Name** values of the **Cameras** section of **required/confs.json** section using the details provided when setting up the configs, and add the URL of the IP of your device ie: http://192.168.1.200 to the **Stream** value and you can change **StreamPort** to whatever you want. These two fields will determine the address that you access your camera on, using the previous IP (Stream) and the StreamPort as 8080 the address would be **http://192.168.1.200:8080/index.html**.
+
+```
+"Cameras": [
+{
+    "ID": 0,
+    "URL": 0,
+    "Name": "",
+    "Stream": "",
+    "StreamPort": 8080
+}
+```
+
+The program uses a **dlib** model to recognize faces in the frames / mark the facial points on the frame, and **Facenet** to determine whether they are a known person or not. Below are the outputs around the time that the above photo was taken. You will see that the program publishes to the **Warnings** channel of the IoT JumpWay, this is currently the name for the channel that handles device to device communication via rules.
+
+```
+-- Saved frame
+-- Total Difference is: 1.0537698864936829
+-- MATCH
+-- Published: 30
+-- Published to Device Warnings Channel
 
 **Acknowledgement:** Uses code from Intel® **movidius/ncsdk** ([movidius/ncsdk Github](https://github.com/movidius/ncsdk "movidius/ncsdk Github"))<br />
 **Acknowledgement:** Uses code from Intel® **davidsandberg/facenet** ([davidsandberg/facenet Github](https://github.com/davidsandberg/facenet "davidsandberg/facenet"))
