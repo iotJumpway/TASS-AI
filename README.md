@@ -6,26 +6,16 @@ tassAI is computer vision software that is able to communicate autonomously with
 
 This repository provides the history of the open source TASS projects. Each tutorial provides full instructions and source codes.<br /><br />
 
-
-[![TASS Movidius Classifiers](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/)
-
-## TASS Movidius Classifiers
-
-The **TASS Movidius Classifiers** are computer vision programs using a number of different models including **Inception V3**, **Yolo**, **dlib**, **OpenCV** and **Facenet**.
-
-**PROJECT LINK:** [TASS Movidius Classifiers](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/ "TASS Movidius Classifiers")<br /><br />
-
-
 [![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/Facenet/images/facenet.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet)
 
-## TASS Movidius Facenet Classifier
+## Latest Version
 
-The **TASS Movidius Facenet Classifier** uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces. The project uses an UP2 the Intel Movidius and the [iotJumpWay](https://www.iotJumpWay.tech "iotJumpWay") for IoT connectivity.
+The latest version of TASS is **TASS Movidius Facenet Classifier** which uses Siamese Neural Networks and Triplet Loss to classify known and unknown faces. The project uses an UP2, the Intel Movidius and the [iotJumpWay](https://www.iotJumpWay.tech "iotJumpWay") for IoT connectivity.
 
 **PROJECT LINK:** [TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/Facenet "TASS Movidius Facenet Classifier")<br /><br />
 
 
-[![TASS Movidius Facenet Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/InceptionV3/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/InceptionV3)
+[![TASS Movidius Inception V3 Classifier](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/raw/master/Intel-Movidius/TASS/InceptionV3/images/tass-movidius.jpg)](https://github.com/iotJumpway/IoT-JumpWay-Intel-Examples/tree/master/Intel-Movidius/TASS/InceptionV3)
 
 ## TASS Movidius Inception V3 Classifier
 
